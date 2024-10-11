@@ -1,6 +1,6 @@
 const getCSS = (variavel) => {
     const bodyStyle = getComputedStyle(documemt.body)
-    return getComputedStyle(document.body).getPropertyValue(variavel)
+    return bodyStyle.getPropertyValue(variavel)
   }
   
   const tickConfig = {
