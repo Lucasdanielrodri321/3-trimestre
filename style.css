@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
 :root {
     --bg-color: #000000;
     --primary-color: #DDDDDD;
     --secondary-color: #F05454;
     font-family: "Edu AU VIC WA NT Guides", system-ui;
 }
+
 body {
     background-color: var(--bg-color);
     color: var(--primary-color);
@@ -12,32 +14,38 @@ body {
     height: 100vh;
     margin: 0;
 }
+
 h1 {
     font-size: 2rem;
     color: var(--bg-color);
     font-weight: 700;
 }
+
 nav {
     display: flex;
     justify-content: center;
     font-weight: 400;
 }
+
 nav a {
     text-decoration: none;
     color: var(--bg-color);
     margin: 0rem 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
+
 header {
     background-color: var(--primary-color);
     text-align: center;
     padding: 1px;
 }
+
 nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
 }
+
 .grafico {
     margin-top: 3rem;
 }
